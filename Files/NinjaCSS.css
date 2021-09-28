@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  font-family: "Space Mono", monospace;
+  color: rgb(47, 59, 47);
+}
+body {
+  text-align: center;
+  font-weight: 500;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  background-color: rgb(232, 236, 255);
+  font-size: larger;
+}
+* {
+  font-weight: 500;
+}
+button {
+  background-color: rgb(181, 181, 250);
+  border: 3px rgba(1, 103, 255, 0) solid;
+  color: rgb(41, 41, 41);
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+button:hover {
+  transition-duration: 0.1s;
+  outline: 4px rgba(255, 255, 255, 0.212) solid;
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+input {
+  background-color: rgb(181, 181, 250);
+  border: 3px rgba(1, 103, 255, 0) solid;
+  color: rgb(41, 41, 41);
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 2px;
+  outline: none;
+}
+input:hover {
+    transition-duration: 0.1s;
+    outline: 4px rgba(255, 255, 255, 0.212) solid;
+}
+::selection {
+  background-color: rgba(255, 255, 255, 0.404);
+  /* color: aliceblue; */
+}
+img {
+  border-radius: 3px;
+}
+a {
+  text-decoration: none;
+  color: rgb(46, 255, 116);
+}
+a:hover {
+  transition-duration: 1s;
+  text-decoration: underline;
+}
+textarea {
+  background-color: rgba(217, 217, 255, 0.842);
+  border: none;
+  resize: both;
+  border-radius: 2px;
+  font-weight: 600;
+  color: rgb(29, 35, 39);
+  outline: none;
+}
+textarea:hover {
+  transition-duration: 0.2s;
+  background-color: rgb(204, 204, 255);
+}
+::-webkit-resizer{
+    color: rgb(164, 154, 255);
+}
+
+.right {
+float: right;
+}
+.left {
+float: left;
+}
+.center {
+float: none;
+}
+.border {
+  border: white 2px dashed;
+}
+.border:hover {
+  border-style: solid;
+  transition-duration: 0.3s;
+}
+.block {
+  border-radius: 0px;
+}
+.classic {
+  background: linear-gradient(rgb(66, 66, 66), white);
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(75, 75, 75);
+}
+.large {
+  padding: 30px 50px;
+}
+.small {
+  padding: 5px 0px;
+}
+.header {
+  background-color: rgb(209, 204, 255);
+  right: 0;
+  font-weight: 500;
+  font-size: large;
+  position: absolute;
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 100;
+  padding: 10px;
+}
+.superborder {
+  border: 2px;
+}
+.full {
+  width: 100%;
+}
+.half {
+  width: 50%;
+}
+.gradient {
+  background: linear-gradient(rgb(86, 74, 255), white);
+}
+.code {
+  display: block;
+  width: 80%;
+  padding: 20px;
+  color: rgb(46, 255, 116);
+  background-color: rgb(15, 29, 41);
+  border-radius: 8px;
+  left: 10%;
+  position: absolute;
+  font-family: "Space Mono", monospace;
+}
+.unlock {
+  position: absolute;
+}
+.fullwidth {
+  width: 100%;
+}
+.fullheight {
+  height: 100%;
+}
+.loader {
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 50%;
+  position: absolute;
+  border-left: 4px rgb(46, 255, 116) solid;
+  border-right: 4px rgb(46, 255, 116) solid;
+  border-top: 4px rgb(46, 255, 116) solid;
+  border-bottom: 4px rgba(46, 255, 116, 0) solid;
+  padding: 20px 20px;
+  animation: 1s load infinite;
+  animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+@keyframes load {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+table{
+    background-color: rgb(177, 169, 250);
+    border-radius: 4px;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+}
+th{
+    background-color: rgb(139, 139, 253);
+    border-radius: 4px;
+}
+td{
+    background-color: rgb(168, 168, 253);
+    border-radius: 4px;
+}
+.copyright{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 8px;
+   background-image: url('../images/copy.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+img{
+    width: 100%;
+    border-radius: 3px;
+}
