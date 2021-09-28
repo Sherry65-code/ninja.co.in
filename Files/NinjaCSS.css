@@ -3,6 +3,9 @@
   font-family: "Space Mono", monospace;
   color: rgb(47, 59, 47);
 }
+.half{
+  width: 50%;
+}
 body {
   text-align: center;
   font-weight: 500;
